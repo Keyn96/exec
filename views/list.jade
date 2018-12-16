@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head 
+        title Список элементов
+    body
+        h1 Список элементов
+        ul
+            for item in list
+                li= item.text 
+                    br
+                    a(href="items/edit/#{item.id}") Редактировать
+                    |&nbsp;
+                    a(href="items/delete/#{item.id}") Удалить
+        a(href="items/add") Добавить

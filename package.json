@@ -1,0 +1,37 @@
+{
+  "name": "listapps",
+  "version": "0.0.2",
+  "description": "Примеры работы со списками на Node.js",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.3.5",
+    "express": "^4.13.1",
+    "express-session": "^1.11.3",
+    "jade": "^1.11.0",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "pg": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corvette888/listapps.git"
+  },
+  "keywords": [
+    "javascript",
+    "node.js",
+    "express",
+    "jade"
+  ],
+  "author": "Iakov Makarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corvette888/listapps/issues"
+  },
+  "homepage": "https://github.com/corvette888/listapps"
+}

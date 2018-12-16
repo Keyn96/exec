@@ -1,0 +1,9 @@
+doctype html
+html(lang="en")
+    head 
+        title Список элементов
+    body
+        h1 Добавить элемент 
+        form(method="post")
+            input(type="text" name="text" value="#{item.text}")
+            input(type="submit" value="Отправить")
