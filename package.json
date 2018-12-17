@@ -14,6 +14,10 @@
     "passport-local": "^1.0.0",
     "pg": "^4.4.0"
   },
+  "engines": {
+    "node": "10.14.x",
+    "npm": "6.4.x"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
